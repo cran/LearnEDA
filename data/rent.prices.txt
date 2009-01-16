@@ -1,4 +1,4 @@
-City	Studio	1_Bedroom	2_Bedroom	3_Bedroom	4_Bedroom
+City	Studio	One.Bedroom	Two.Bedroom	Three.Bedroom	Four.Bedroom
 Albuquerque	397	473	592	816	963
 Atlanta	613	682	795	1060	1282
 Boston	695	782	979	1223	1437

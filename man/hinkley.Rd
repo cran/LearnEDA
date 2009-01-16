@@ -10,13 +10,10 @@ hinkley(d)
 \arguments{
   \item{d}{numeric vector of values}
 }
-
 \value{
-\item{Hinkley's measure of asymmetry}
+Hinkley's measure of asymmetry
 }
-
 \author{Jim Albert}
-
 \examples{
 data(state)
 raw=state.x77[,"Population"]
@@ -24,5 +21,4 @@ hinkley(raw)
 logs=log(raw)
 hinkley(logs)
 }
-
 \keyword{dplot}

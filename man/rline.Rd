@@ -17,6 +17,7 @@ rline(x,y,iter=1)
  \item{b}{value of slope b}
  \item{xC}{value of xC}
  \item{half.slope.ratio}{value of half slope ratio after one iteration}
+ \item{residual}{vector of residuals}
 }
 
 

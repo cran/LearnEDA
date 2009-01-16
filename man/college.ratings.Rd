@@ -1,13 +1,16 @@
 \name{college.ratings}
 \alias{college.ratings}
+\docType{data}
 \title{Ratings of National Universities in the U.S.}
 \description{
-Ratings for 225 National Universities based on a 2001 survey.
+Ratings for National Universities based on a 2001 survey.
 }
 \usage{
 college.ratings
 }
 \format{
+  A data frame with 249 observations on the following 12 variables.
+  \describe{
   \item{School}{name of university}
   \item{Tier}{tier grouping of the univesity}
   \item{Type}{private or public institution}
@@ -20,6 +23,6 @@ college.ratings
   \item{Top.10}{proportion of students enrolled who graduated in the top 10 percent of their high school class}
   \item{Acc.rate}{ratio of the number of students admitted to the number of applicants}
   \item{Alum.giving}{average percent of undergraduate alumni of record who donated money to the college or university}
-}
-
+}}
+\source{U.S. News and World Report}
 \keyword{datasets}

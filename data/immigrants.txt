@@ -1,4 +1,4 @@
-Country	Region	1998_Count
+Country	Region	X1998.Count
 Austria	Europe	610
 Belgium	Europe	557
 Czechoslovakia	Europe	931
