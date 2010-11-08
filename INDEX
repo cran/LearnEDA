@@ -1,0 +1,67 @@
+act.scores.06.07        ACT scores of states in the US.
+baseball.attendance     Attendance at baseball teams.
+batting.history         Yearly Batting Statistics for Major League
+                        Baseball
+beatles                 Lengths of songs from Beatles' albums.
+boston.marathon         Boston Marathon completion times of women of
+                        different ages.
+boston.marathon.wtimes
+                        Boston marathon winning times
+braves.attendance       Attendance at games of a baseball team
+car.measurements        Car measurements
+church.2way             Church attendance as a two-way table.
+church.tseries          Time series of worship attendance
+college.ratings         Ratings of National Universities in the U.S.
+farms                   Number of farms in the states of the U.S.
+fit.gaussian            Fitting a Gaussian curve to binned data
+football                American football scores
+gestation.periods       Gestation periods for different animals.
+grandma.19.40           Grandmas Marathon completion times
+half.slope.ratio        Half slope ratio
+han                     Hanning a sequence
+heaviest.fish           Fish world record catches
+hinkley                 Hinkley's quick method
+home.prices             Home sales prices in the U.S.
+homeruns.2000           Team home run numbers for different seasons.
+homeruns.61             Home run counts in 1961
+immigrants              Immigrant counts to US.
+island.areas            Areas of islands from different continents.
+lake                    Lake measurements
+lval                    Letter values
+mortality.rates         Infant mortality rates of countries
+mtrans                  Matched transformation
+olympics.run            Olympics running times.
+olympics.speed.skating
+                        Olympics speed skating times.
+olympics.swim           Olympics swimming times.
+pitching.history        Yearly Pitching Statistics for Major League
+                        Baseball
+plot2way                Plot of an additive fit
+pop.change              Population change for all states in the U.S.
+pop.densities           Population densities of states for different
+                        years.
+pop.england             England population
+power.t                 Power transformation
+rent.prices             Rent prices in different cities.
+rline                   Resistant line
+salaries                Salaries of different professions in different
+                        cities.
+slider.compare          Interactive comparison of groups by a power
+                        transformation
+slider.match            Interactive reexpression by a power
+                        transformation using matched reexpressions
+slider.power            Interactive reexpression by a power
+                        transformation
+slider.straighten       Interactive straightening of plots by power
+                        transformations
+snowfall                Snowfall amounts of two cities
+spread.level.plot       Spread versus level plot
+studentdata             Student dataset
+symplot                 Symmetry plot
+temperatures            Temperatures for different cities.
+tukey.24a               Tukey straightening exercise 24a
+tukey.24b               Tukey straightening exercise 24b
+tukey.26a               Tukey straightening exercise 24a
+tukey.26b               Tukey straightening exercise 24b
+tukey.26c               Tukey straightening exercise 24c
+us.pop                  Population of United States

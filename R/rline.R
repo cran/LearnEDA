@@ -1,4 +1,4 @@
-rline=function (x, y, iter = 1) 
+ rline=function (x, y, iter = 1) 
 {
     rline0 = function(x, y) {
         n = length(x)
@@ -26,9 +26,11 @@ rline=function (x, y, iter = 1)
         bR = (y.med[3] - y.med[2])/(x.med[3] - x.med[2])
         bL = (y.med[2] - y.med[1])/(x.med[2] - x.med[1])
         a = mean(y.med - b * (x.med - x.med[2]))
-        return(list(a = a, b = b, xC = x.med[2], bL = bL, bR = bR))
+        return(list(a = a, b = b, xC = x.med[2], bL = bL, bR = bR,
+            summary.points=cbind(x.med, y.med)))
     }
     residual = y
+    sum.points=rline0(x, y)$summary.points
     a = 0
     b = 0
     bL = 0
@@ -43,6 +45,7 @@ rline=function (x, y, iter = 1)
         }
         residual = y - (a + b * (x - fit$xC))
     }
-    return(list(a = a, b = b, xC = fit$xC, half.slope.ratio = bR/bL,
-     residual=residual))
+    return(list(a = a, b = b, xC = fit$xC, half.slope.ratio = bR/bL, 
+        residual = residual, 
+        spoints.x=sum.points[,1],spoints.y=sum.points[,2]))
 }

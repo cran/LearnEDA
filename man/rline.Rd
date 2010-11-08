@@ -18,6 +18,8 @@ rline(x,y,iter=1)
  \item{xC}{value of xC}
  \item{half.slope.ratio}{value of half slope ratio after one iteration}
  \item{residual}{vector of residuals}
+ \item{spoints.x}{vector of summary x coordinates}
+ \item{spoints.y}{vector of summary y coordinates}
 }
 
 

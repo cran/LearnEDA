@@ -4,18 +4,22 @@
 \title{Attendance at baseball teams.}
 \description{
 Average attendance for home and away games for all major league
-baseball games in the 2001 season.
+baseball games in the first half of the 2010 season.
 }
 \usage{
 baseball.attendance
 }
 \format{
-  A data frame with 30 observations on the following 4 variables.
+  A data frame with 30 observations on the following 8 variables.
   \describe{
   \item{Team}{name of team}
   \item{League}{league where the team belongs}
-  \item{Home.Attendance}{average attendance for home games}
-  \item{Away.Attendance}{average attendance for away games}
+  \item{N.Home}{number of home games}
+  \item{Avg.Home}{average attendance for home games}
+  \item{Pct.Home}{percentage of park capacity for home games}
+  \item{N.Away}{number of away games}
+  \item{Avg.Away}{average attendance for away games}
+  \item{Pct.Away}{percentage of park capacity for away games}
 }
 }
 \source{www.espn.com web site}
